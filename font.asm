@@ -1,0 +1,16 @@
+FONT:
+	.byte $00,$00,$00,$00,$00,$00,$00,$00			;	Char 0x00 (Null)
+	.byte $7E,$81,$A5,$81,$BD,$99,$81,$7E			;	Char 0x01 (Smile)
+	.byte $7E,$FF,$DB,$FF,$C3,$E7,$FF,$7E			;	Char 0x02 (Smile, inverted)
+	.byte $6C,$FE,$FE,$FE,$7C,$38,$10,$00			;	Char 0x03 (Heart)
+	.byte $10,$38,$7C,$FE,$7C,$38,$10,$00			;	Char 0x04 (Diamond)
+	.byte $38,$7C,$38,$FE,$FE,$D6,$10,$38			;	Char 0x05 (Club)
+	.byte $10,$10,$38,$7C,$FE,$7C,$10,$38			;	Char 0x06 (Spade)
+	.byte $00,$00,$18,$3C,$3C,$18,$00,$00			;	Char 0x07 (Dot)
+	.byte $FF,$FF,$E7,$C3,$C3,$E7,$FF,$FF			;	Char 0x08 (Dot, inverted)
+	.byte $00,$3C,$66,$42,$42,$66,$3C,$00			;	Char 0x09 (Circle)
+	.byte $FF,$C3,$99,$BD,$BD,$99,$C3,$FF			;	Char 0x0A (Circle, inverted)
+	.byte $0F,$07,$0F,$7D,$CC,$CC,$CC,$78			;	Char 0x0B (Male symbol)
+	.byte $3C,$66,$66,$66,$3C,$18,$7E,$18			;	Char 0x0C (Female symbol)
+	.byte $3F,$33,$3F,$30,$30,$70,$F0,$C0			;	Char 0x0D (Note)
+	.byte $7F,$63,$7F,$63,$63,$67
