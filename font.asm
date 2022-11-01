@@ -13,4 +13,11 @@ FONT:
 	.byte $0F,$07,$0F,$7D,$CC,$CC,$CC,$78			;	Char 0x0B (Male symbol)
 	.byte $3C,$66,$66,$66,$3C,$18,$7E,$18			;	Char 0x0C (Female symbol)
 	.byte $3F,$33,$3F,$30,$30,$70,$F0,$C0			;	Char 0x0D (Note)
-	.byte $7F,$63,$7F,$63,$63,$67
+	.byte $7F,$63,$7F,$63,$63,$67,$E6,$C0			;	Char 0x0E (Double note)
+	.byte $99,$5A,$3C,$E7,$E7,$3C,$5A,$99			;	Char 0x0F (Star)
+	
+	.byte $80,$E0,$F8,$FE,$F8,$E0,$80,$00			;	Char 0x10 (Right arrow)
+	.byte $02,$0E,$3E,$FE,$3E,$0E,$02,$00			;	Char 0x11 (Left arrow)
+	.byte $18,$3C,$7E,$18,$18,$7E,$3C,$18			;	Char 0x12 (Up/down arrow)
+	.byte $66,$66,$66,$66,$66,$00,$66,$00			;	Char 0x13 (Double exclamation point)
+	.byte $EF,$DB,$DB,$7B
